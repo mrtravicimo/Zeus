@@ -18,7 +18,7 @@ const Main = () => {
           ?<>
             <div className="greet">
               <p><span><b>Greetings Mortal</b></span></p>
-              <p>Ask and I shall answer</p>
+              <p>Ask the almighty and I shall answer</p>
             </div>
             <div className="cards">
               <div className="card">
