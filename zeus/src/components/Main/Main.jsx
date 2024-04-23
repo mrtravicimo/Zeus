@@ -10,31 +10,31 @@ const Main = () => {
   return (
     <div className='main'>
       <div className="nav">
-        <p>Zeus</p>
+        <p><b>Zeus</b></p>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
         {!showResult
           ?<>
             <div className="greet">
-              <p><span>Hello, Dev.</span></p>
-              <p>How can I help you today?</p>
+              <p><span><b>Greetings Mortal</b></span></p>
+              <p>Ask and I shall answer</p>
             </div>
             <div className="cards">
               <div className="card">
-                <p>Suggest beautiful places to see on an upcoming road trip</p>
+                <p>Zeus knows every inch of the world, no rock unturned</p>
                 <img src={assets.compass_icon} alt="" />
               </div>
               <div className="card">
-                <p>Briefly summerize this concept: urban planning</p>
+                <p>knowledge of the gods</p>
                 <img src={assets.bulb_icon} alt="" />
               </div>
               <div className="card">
-                <p>Brainstorm team bonding activities for our work retreat</p>
+                <p>always ready to listen to a unsure soul</p>
                 <img src={assets.message_icon} alt="" />
               </div>
               <div className="card">
-                <p>Improve the readability of the following code</p>
+                <p>Zeus also can help to code almost any problem</p>
                 <img src={assets.code_icon} alt="" />
               </div>
             </div>

@@ -9,7 +9,7 @@
 
 .sidebar img{
   width: 20px;
-  background-color: #bceb76;
+  background-color: #bceb7684;
   border-radius: 20%;
 }
 
@@ -25,9 +25,10 @@
   align-items: center;
   gap: 10px;
   padding: 10px 15px;
-  background-color: #a1f230;
+  background-color: #c1fc6de0;
   border-radius: 50px;
   font-size: 14px;
+
   cursor: pointer;
 }
 
@@ -35,13 +36,13 @@
   display: flex;
   flex-direction: column;
   animation: fadeIn 1.5s;
-  color: #a1f230;
+  color: #a1f2308b;
 }
 
 .sidebar .recent-title{
   margin-top: 30px;
   margin-bottom: 20px;
-  color: #a1f230;
+  color: #a1f23057;
 }
 
 .sidebar .recent-entry{
